@@ -1,0 +1,20 @@
+body{
+    background-color: #fae9e9;
+}
+section {
+    width: 60%;
+    height: 40%;
+    font-size :20px;
+    margin: 100px auto auto;
+    border: solid #9612a0;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #e2e2e2;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+}
+li :hover{
+    background-color: #adade3;
+}
