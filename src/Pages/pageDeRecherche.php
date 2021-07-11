@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html lang="fr">
 <head>
@@ -7,7 +6,7 @@
     <link rel="stylesheet" href="../Style/pageRecherche.css">
     <script src="../js/jquery-3.6.0.js"></script>
     <script src="../js/index.js"></script>
-    <title>Research page</title>
+    <title>Page de recherches</title>
 </head>
 <body>
    <SECTION>

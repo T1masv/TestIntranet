@@ -11,23 +11,13 @@
 <section class="container">
     <H2>Création de compte</H2>
     <div id="alert"></div>
-    <form action="../logInTraitement.php" method="post">
+    <form action="../inscriptionTraitement.php" method="post">
         <div class="labels">
-            <label for="nom">
-                Nom
-            </label>
-            <label for="prenom">
-                Prénom
-            </label>
-            <label for="email">
-                Email
-            </label>
-            <label for="password">
-                Password
-            </label>
-            <label for="repassword">
-                Confirmer Password
-            </label>
+            <label for="nom">Nom</label>
+            <label for="prenom">Prénom</label>
+            <label for="email">Email</label>
+            <label for="password">Password</label>
+            <label for="repassword">Confirmer Password</label>
         </div>
         <div id="mov1" class="inputs">
             <input id="nom" name="nom" type="text" required="required" placeholder="Votre Nom..." />

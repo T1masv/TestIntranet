@@ -1,8 +1,9 @@
 <?php
 require_once 'config.php'; // Connexion a la BD;
 
-if (isset($_POST['recherche'])&&!empty($_POST['recherche'])) { // verrifiation si la balise input est vide
-    $query = $_POST['recherche']; // patch XSS
+if (isset($_POST['recherche'])&&!empty($_POST['recherche'])) { // On verifie si la balise input est vide
+    // patch XSS
+    $query = $_POST['recherche'];
 
     $output = '';
     $request = $bdd->prepare('SELECT * FROM catalogue WHERE id  LIKE ?  OR nomProduit LIKE ? ');

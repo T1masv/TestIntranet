@@ -36,18 +36,18 @@ if (!empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['email'])
                     'token' => bin2hex(openssl_random_pseudo_bytes(64))
                 ));
 
-                header('Location:loginPage.php?reg_err=success');
+                header('Location:pageDInscription.php?reg_err=success');
                 die();
             } else {
                 header('Location:loginpage.php?reg_err=password');
                 die();
             }
         } else {
-            header('Location:loginPage.php?reg_err=emailInvalide');
+            header('Location:pageDInscription.php?reg_err=emailInvalide');
             die();
         }
     } else {
-        header('Location:loginPage.php?reg_err=existeDeja ');
+        header('Location:pageDInscription.php?reg_err=existeDeja ');
         die();
     }
-} else header('Location:loginPage.php?reg_err=erreurSaisie');
+} else header('Location:pageDInscription.php?reg_err=erreurSaisie');
