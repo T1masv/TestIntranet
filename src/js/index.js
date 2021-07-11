@@ -22,7 +22,7 @@ $(document).ready(function(){
            $('#recherche').val($(this).text());
             $('#resultatQuery').fadeOut();
 
-        })
-    })
-})
+        });
+    });
+});
 
