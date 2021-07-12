@@ -13,8 +13,9 @@ section {
 }
 li{
     cursor: pointer;
+    width : 70%;
     list-style: none;
+    background-color: #d0d0d0;
+    margin:auto;
 }
-li :hover{
-    background-color: #adade3;
-}
+
