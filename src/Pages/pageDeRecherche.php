@@ -1,3 +1,6 @@
+<?php
+include ("../verifConnexion.php");
+?>
 <!DOCTYPE HTML>
 <html lang="fr">
 <head>

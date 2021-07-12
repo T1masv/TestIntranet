@@ -18,14 +18,14 @@ if (!empty($_POST['email']) && !empty($_POST['Password'])) {
 
     if ($row === 1) {
         if (password_verify($password, $result['password'])) {
-            $_SESSION = $result['token'];
-            header('location:pageDeRecherche.php');// On redirige vers la page de recherche
+            $_SESSION['token'] = $result['token'];
+            header('location:Pages/pageDeRecherche.php');// On redirige vers la page de recherche
         } else {
-            header('location:pageDeConnexion.php?login_err=wrong_password');
+            header('location:Pages/pageDeConnexion.php?login_err=wrong_password');
             die();
         }
 
-    } else header('Location:pageDeConnexion.php?login_err=NoAccount');
+    } else header('Location:Pages/pageDeConnexion.php?login_err=NoAccount');
 
 
 }
