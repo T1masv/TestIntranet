@@ -25,3 +25,4 @@ if (isset($_POST['recherche'])&&!empty($_POST['recherche'])) { // On verifie si 
     echo $output; //Retour du resultat
 }
 
+?>

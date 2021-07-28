@@ -7,3 +7,4 @@ if (empty($_SESSION['token'])){
     echo 'oui';
 
 }
+>?

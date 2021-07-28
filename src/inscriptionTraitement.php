@@ -61,3 +61,4 @@ if (!empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['email'])
         die();
     }
 } else header('Location:pageDInscription.php?reg_err=erreurSaisie');
+?>
